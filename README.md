@@ -9,7 +9,9 @@ toutes les configurations de débits sont conformes aux abonnements des clients 
 ## Outils
 
 -Python (pandas numpy matplolib)
+
 -Power BI
+
 -Excel
 
 ## Dataset

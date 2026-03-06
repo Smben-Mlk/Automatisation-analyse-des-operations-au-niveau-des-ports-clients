@@ -8,9 +8,13 @@ toutes les configurations de débits sont conformes aux abonnements des clients 
 
 ## Outils
 
+-Python (pandas numpy matplolib)
+-Power BI
+-Excel
+
 ## Dataset
 
-#Inputs
+##Inputs
 
 -Exports NCE ( fichiers compressés qui contiennent les ports NCE et toutes les informations relatives à ces derniers.)
 
@@ -27,7 +31,7 @@ toutes les configurations de débits sont conformes aux abonnements des clients 
 		format: fichier excel (.xlsx)
 		à fiabiliser au besoin
 
-#Outputs
+##Outputs
 
 - CONTRÔLE XDSL NCE
 Croisement entre  login NCE, l’export Kibaru, le PARC ,les références de débit, le log XDSL et l’export XDSL qui nous permet de vérifier les actions au niveaux des équipements ADSL/VDSL ainsi que les configurations de débit.

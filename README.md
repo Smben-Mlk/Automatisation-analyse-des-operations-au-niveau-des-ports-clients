@@ -88,10 +88,14 @@ Création d’un fichier qui contient toutes les possibilités de débit dans le
    
 Croisement de chaque action de changement de débit avec chacun des fichiers pour pour pouvoir comparer les débits en up et down.
  
-Possibilités de CONSTATS
+Possibilités :
+
 DEBIT OK si REF UP =DB UP et REF DOWN = DB DOWN
+
 DEBIT NOK si REF UP ≠ DB UP et REF DOWN = DB DOWN
+
 DEBIT NOK si REF UP =DB UP et REF DOWN ≠DB DOWN
+
 DEBIT NOK si REF UP ≠DB UP et REF DOWN ≠DB DOWN
 
 ## Dashboard

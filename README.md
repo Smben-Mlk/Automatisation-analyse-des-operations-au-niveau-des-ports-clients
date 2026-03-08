@@ -2,10 +2,13 @@
 
 ## Objectif
 
-Ce projet a pour objectifs de s’assurer que:
+Ce projet a pour objectifs de:
 
-- toutes les opérations sur les ports se font sur demande formelle;
-- toutes les configurations de débits sont conformes aux abonnements des clients (anti fraude).
+- Identifier toutes les opérations faites au niveau des ports clients
+- Identfier les auteurs et leurs droits (fiabilisation)
+- Corréler les ports aux infos (numéros, configurations de debit, TV , VOIP ) 
+- s’assurer que toutes les opérations sur les ports se font sur demande formelle;
+- s’assurer que toutes les configurations de débits sont conformes aux abonnements des clients (anti fraude).
 
 [Voir rapport complet] (https://github.com/Smben-Mlk/Automatisation-des-analyses-des-op-rations-au-niveau-des-ports-clients/blob/main/RAPPORT%20AUTOMATISTION%20DES%20OP%C3%89RATIONS%20NCE.pdf)
 
@@ -16,6 +19,19 @@ Ce projet a pour objectifs de s’assurer que:
 - Power BI
 
 - Excel
+
+- SQL
+
+## Compétences
+
+- analyse de logs
+- Deep learning
+- Machine learning
+- automatisation
+- Analyse de données
+- Netoyage de données
+- aggrégation de données
+- corrélation de données
 
 ## Dataset
 
@@ -82,7 +98,7 @@ feuille 2
 
 Contient les opérations d’activation/desactivation de port  DESC sans cases.
 
-## Aproche d'analyse
+## Approche d'analyse
 
 Les grandes lignes de la méthodologie adoptée dans le contrôle des débits sont:
 Création de fichiers de référence qui attribuent à chaque abonnement du parc les débits de référence respectifs en MEGA.
@@ -100,9 +116,5 @@ Possibilités :
 - DEBIT NOK si REF UP =DB UP et REF DOWN ≠DB DOWN
 
 - DEBIT NOK si REF UP ≠DB UP et REF DOWN ≠DB DOWN
-
-## Dashboard
-
-
 
 

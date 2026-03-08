@@ -24,14 +24,14 @@ Ce projet a pour objectifs de:
 
 ## Compétences
 
-- analyse de logs
+- Analyse de logs
 - Deep learning
 - Machine learning
-- automatisation
+- Automatisation
 - Analyse de données
 - Netoyage de données
-- aggrégation de données
-- corrélation de données
+- Aggrégation de données
+- Corrélation de données
 
 ## Dataset
 

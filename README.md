@@ -105,14 +105,15 @@ Le script principal de traitement des données NCE nce.py est composé de plusie
 - parc.py (convertit le parc en fichier excel exploitable)
 - logbrut.py (départage et filtre le log brut en 3 parties)
   
-	Log XDSL
+		Log XDSL
 Contient toutes les opérations ADSL et VDSL effectuées.
 Le script logbrut.py filtre sur les équipements MA5600T et MA5603T puis fait les changements nécessaires pour créer la clef de croisement ID.
-	Log GPON
+
+		Log GPON
 Contient toutes les opérations d’activation de suppression effectuées sur les équipements fibre.
 Le script logbrut.py filtre sur l’équipement MA5800-X17 et détails ne contient pas /0 puis fait les changements nécessaires pour créer la clef de croisement ID.
 
- 	Log SP
+ 		Log SP
 Contient toutes les opérations de modification effectuées sur les équipements fibre.
 Le script logbrut.py filtre sur l’équipement MA5800-X17 et details contient /0_ puis fait les changements nécessaires pour créer la clef de croisement ID.
 
